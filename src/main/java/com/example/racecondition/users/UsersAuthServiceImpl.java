@@ -2,7 +2,6 @@ package com.example.racecondition.users;
 
 import com.example.racecondition.engagement.Engagement;
 import com.example.racecondition.engagement.EngagementsRepository;
-import com.example.racecondition.User;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDateTime;

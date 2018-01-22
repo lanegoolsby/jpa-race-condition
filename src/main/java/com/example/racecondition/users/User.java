@@ -1,11 +1,10 @@
-package com.example.racecondition;
+package com.example.racecondition.users;
 
 import com.example.racecondition.engagement.Engagement;
-import io.swagger.annotations.ApiModel;
+
 import java.beans.ConstructorProperties;
 import java.util.List;
 
-@ApiModel
 public final class User {
   private final String           name;
   private final String           email;

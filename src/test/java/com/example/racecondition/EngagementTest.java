@@ -2,6 +2,7 @@ package com.example.racecondition;
 
 import com.example.racecondition.engagement.Engagement;
 import com.example.racecondition.engagement.EngagementsRepository;
+import com.example.racecondition.users.User;
 import com.example.racecondition.users.UsersAuthService;
 import com.example.racecondition.users.UsersAuthServiceImpl;
 import org.junit.Before;
