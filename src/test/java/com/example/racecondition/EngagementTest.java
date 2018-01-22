@@ -4,7 +4,6 @@ import com.example.racecondition.engagement.Engagement;
 import com.example.racecondition.engagement.EngagementsRepository;
 import com.example.racecondition.users.User;
 import com.example.racecondition.users.UsersAuthService;
-import com.example.racecondition.users.UsersAuthServiceImpl;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -32,12 +31,13 @@ public class EngagementTest {
   @Autowired
   EngagementsRepository engagementsRepository;
 
+  @Autowired
   UsersAuthService authService;
 
   @Before
   public void init() {
     MockitoAnnotations.initMocks(this);
-    authService = new UsersAuthServiceImpl(usersService, engagementsRepository);
+    //authService = new UsersAuthServiceImpl(usersService, engagementsRepository);
   }
 
   @Test

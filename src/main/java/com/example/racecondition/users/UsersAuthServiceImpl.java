@@ -9,11 +9,9 @@ import java.time.LocalDateTime;
 import static org.springframework.transaction.annotation.Isolation.SERIALIZABLE;
 
 public class UsersAuthServiceImpl implements UsersAuthService{
-  private final UsersAuthService      users;
   private final EngagementsRepository engagements;
 
-  public UsersAuthServiceImpl(UsersAuthService users, EngagementsRepository engagements) {
-    this.users = users;
+  public UsersAuthServiceImpl(EngagementsRepository engagements) {
     this.engagements = engagements;
   }
 
