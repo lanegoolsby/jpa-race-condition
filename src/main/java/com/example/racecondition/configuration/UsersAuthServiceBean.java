@@ -1,3 +1,4 @@
+/*
 package com.example.racecondition.configuration;
 
 import com.example.racecondition.engagement.EngagementsRepository;
@@ -17,3 +18,4 @@ public class UsersAuthServiceBean {
     return new UsersAuthServiceImpl(repository);
   }
 }
+*/
